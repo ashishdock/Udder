@@ -13,6 +13,7 @@ struct ContentView: View {
             Text("This is Udder App!")
                 .padding().font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
             Text("Get Everything, Everywhere!")
+            Image("600130").resizable().padding()
         }
     }
 }
